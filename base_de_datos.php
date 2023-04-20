@@ -4,7 +4,7 @@ $contraseña = "fXpOmsgxS1MqasfXSCcr";
 $usuario = "postgres";
 $nombreBaseDeDatos = "railway";
 
-$rutaServidor = "postgresql://postgres:fXpOmsgxS1MqasfXSCcr@containers-us-west-203.railway.app:5883/railway";
+$rutaServidor = "containers-us-west-203.railway.app";
 $puerto = "5883";
 
 try {
