@@ -12,7 +12,7 @@ $mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
 <?php include_once "encabezado.php" ?>
 <div class="row">
 
-	<div class="col-12">
+	<div class="col-12 custom-bg">
 		<h1>Listar con arreglo</h1>
 		<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Walter Moncada</a>
 		<br>
