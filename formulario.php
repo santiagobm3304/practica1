@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col-12" style="background-color: white; border-radius: 20px;">
         <div style="width: 100%; text-align: center;">
-            <h1>Agregar</h1>
+            <h1 style="text-align: center;">Agregar</h1>
         </div>
         <form action="insertar.php" method="POST">
             <div class="form-group">
@@ -18,8 +18,8 @@
                 <input required name="edad" type="number" id="edad" placeholder="Edad de mascota" class="form-control">
             </div>
             <div style="width: 100%; align-items: center; text-align: center;">
-                <button type="submit" class="btn btn-success">Guardar</button>
-                <a href="./listar.php" class="btn btn-warning">Ver todas</a>
+                <button type="submit" class="btn btn-success" style="margin-bottom: 2rem;">Guardar</button>
+                <a href="./listar.php" class="btn btn-warning" style="margin-bottom: 2rem;">Ver todas</a>
             </div>
 
         </form>
