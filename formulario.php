@@ -3,8 +3,8 @@
 ?>
 <?php include_once "encabezado.php" ?>
 <div class="row">
-    <div class="col-12" style="background-color: white;">
-        <h1 style="color: white;">Agregar</h1>
+    <div class="col-12" style="background-color: white; border-radius: 20px;">
+        <h1>Agregar</h1>
         <form action="insertar.php" method="POST">
             <div class="form-group">
                 <label for="nombre">Nombre</label>
